@@ -73,6 +73,9 @@ class App extends React.Component {
           <TodoForm addTodo={this.addTodo}/>
         </div>
         <TodoList clearCompleted={this.clearCompleted} toggleTodo={this.toggleTodo} todos={this.state.todos} />
+        <br/>
+        <br/>
+        <p>Get Your Life Together!</p>
       </div>
     );
   }
