@@ -11,7 +11,17 @@ const todos = [
     completed: false
   },
   {
-    task: 'Clean the oven',
+    task: 'Clean Oven',
+    id: Date.now()+2,
+    completed: false
+  },
+  {
+    task: 'Social Media Detox',
+    id: Date.now()+3,
+    completed: false
+  },
+  {
+    task: 'Wash Hair!',
     id: Date.now(),
     completed: false
   }
@@ -69,14 +79,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h2>Welcome to your Todo App!</h2>
+          <h2>Get 👏 Your 👏 Life 👏 Together 👏 !</h2>
           <TodoForm addTodo={this.addTodo}/>
         </div>
         <br/>
         <TodoList clearCompleted={this.clearCompleted} toggleTodo={this.toggleTodo} todos={this.state.todos} />
         <br/>
         <br/>
-        <p>Get Your Life Together!</p>
+        <p>Your new favorite Todo App!</p>
       </div>
     );
   }

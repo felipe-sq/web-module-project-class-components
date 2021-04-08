@@ -37,7 +37,7 @@ span {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    margin: 10px auto;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1 {
 }
 
 .item {
-    background-color: rgb(78, 175, 143);
+    background-color: rgb(83, 187, 83);
     width: 45%;
     text-align: left;
     margin: 4px 0;
@@ -80,16 +80,15 @@ form > input {
     width: 240px;
     outline: 0;
     color: white;
-    /* border-bottom: 1px solid rgb(69, 184, 145);
-    border-left: 1px solid rgb(69, 184, 145); */
-    border: 1px solid rgb(69, 184, 145);
+    border-bottom: 1px solid rgb(83, 187, 83);
+    /* border: 1px solid rgb(83, 187, 83); */
     border-radius: 2px;
     margin-right: 8px;    
 }
 
 button {
-    background-color: rgb(147, 243, 233);
-    border: 1px solid rgb(122, 231, 220);
+    background-color: rgb(245, 242, 73);
+    border: 1px solid rgb(245, 242, 73);
     color: black;
     font-size: 16px;
     padding: 6px 14px;
