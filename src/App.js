@@ -79,7 +79,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h2>Get 👏 Your 👏 Life 👏 Together 👏 !</h2>
+          <h2>Get.Your.Life.Together!</h2>
           <TodoForm addTodo={this.addTodo}/>
         </div>
         <br/>
