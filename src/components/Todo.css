@@ -34,8 +34,10 @@ span {
 
 .header {
     display: flex;
+    flex-flow: column;
     justify-content: space-between;
     align-items: center;
+    /* align-content: center; */
 }
 h1 {
     text-align: left;
